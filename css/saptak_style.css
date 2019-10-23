@@ -1,0 +1,222 @@
+header{
+	background:#fff;
+	width:100%;
+}
+.navbar{
+	padding: 10px 0;
+}
+.navbar-brand{
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #000;
+}	
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+	border-style: solid;
+	border-width: 0 0 5px 0;
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+	color: #000;
+	padding: 5px 15px;
+}
+.nav-item{
+	font-weight:600;
+	text-transform:uppercase;
+}
+.banner .container{
+	min-height:92.5vh;
+	background-size:cover;
+	background-position:center;	
+
+}
+.saptak_name{
+	font-family: verdana;
+	font-weight: 900;
+	font-size: 6em;
+	padding-top: 400px;
+	background: -webkit-linear-gradient(#05639B, #01E196);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner .container h4{
+	background: -webkit-linear-gradient(#05639B, #01E196);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}	
+.events{
+	width: 100%;
+	min-height: 100vh;
+	text-align: center;
+}
+.events_name_container{
+	height: 100px;
+	text-align: center;
+	padding: 40px;
+}
+.events_name{
+	font-family: helvetica;
+	font-weight: 800;
+	font-size: 2em;
+}
+
+.event1{
+	width: 100%;
+	height: 491px;
+	background-color: white;
+	border-radius: 5px;
+	margin: 10px;
+}
+.flip-box {
+  background-color: transparent;
+  width: 350px;
+  height: 491px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-image: linear-gradient(to bottom right, #005C97, #363795);
+  color: white;
+  font-family: helvetica;
+  transform: rotateY(180deg);
+}
+.flip-box-back h1{
+  padding-top: 40px;
+  font-size: 2em;
+  font-weight: 900;
+}
+.flip-box-back p{
+	padding-top:60px;
+	line-height: 200%; 
+	word-wrap: break-word;
+}
+.flip-box-back .details{
+	
+}
+.flip-box-back .register{
+	border-radius: 5px;
+	margin-left: 115px;
+	width: 120px;
+	height: 40px;
+	background-color: white;
+	padding-top: 8px;
+	text-align: center;
+}
+.details button,.details button:hover{
+	border-radius: 5px;
+	border: 2px solid white;
+	width: 100px;
+	height: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.register a , .register a:hover{
+	color: #363795;
+	font-family: helvetica;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 200;
+}
+.sponsors{
+	width: 100%;
+	min-height: 90vh;
+	text-align: center;
+	background-color: #CECECE;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  text-align: center;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.modal-content  .col-sm-6 .rules{
+	text-align: left;
+}
+.modal-content  .col-sm-6 .details{
+	text-align: left;
+}
+.modal-content  .col-sm-12 .organizers{
+	margin-left: -90px;
+}
+.organizers .register{
+	border-radius: 5px;
+	width: 120px;
+	height: 40px;
+	background-color: red;
+	padding-top: 8px;
+	text-align: center;
+	margin-left: 635px;
+}
+.organizers .register a ,.organizers .register a:hover{
+	color: white;
+	font-family: helvetica;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 200;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.intra-events{
+	width: 100%;
+	height: 500px;
+}
